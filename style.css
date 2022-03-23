@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.navbar {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #0a0a0a;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.productblok{
+    color: #0a0a0a;
+    background-color: white;
+    float: left;
+    width: 18%;
+    padding: 1%;
+    height: 550px;
+    margin: 6.66%;
+    border: 0px solid #0a0a0a;
+    font-family: 'Work Sans', sans-serif;
+    transition: 0.5s all ease;
+    transition-delay: 0.1s;
+    min-width: 320px;
+}   
+.image{
+  width: 300px;
+  margin: 6%;
+}
+
+.Contact{
+  background-color:#0a0a0a;
+  width: 90%;
+  margin: 5%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  border-radius: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.Bericht{
+  width: 75%;
+  float: left;
+  color: white;
+  height: 500px;
+}
+
+.informatie{
+  width: 25%;
+  float: left;
+   
+}
+
+input{
+  width: 80%;
+  margin: 10px;
+  height: 40px;
+
+}
+
+textarea{
+  width: 80%;
+  margin: 10px;
+  height: 40px;
+
+}
+
+.versturenknop{
+  width: 10%;
+  background-color: white;
+}
+
+:placeholder-shown{
+  background-color: white;
+  color: white;
+}
+
+.linkje{
+  color: #28208c;
+  font-size: 30px;
+}
+
+h1{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 12px;
+}
+body{
+  back
+}
