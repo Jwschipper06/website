@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+  <title>JW.nl</title>
+  <link rel="shortcut icon" href="images\logo.png">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
     <div class="navbar">
             
-        <img src="images\logo.png" width="125px">
+      <a href="index.html"><img src="images\logo.png" width="125px"></a>
         
         <nav>
             <ul id="navMenu">          
                 <li><a href="index.html">Home</a></li>        
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="overons.html">Contact</a></li>
                 <li><a href="winkel.html">Winkel</a></li>
-                <li><a href="winkelmandje.html">Winkelmandje</a></li>
+                <li><a href="winkelmandje.html">winkelmand <i class="fa fa-shopping-basket" style="color: white;"></i></a></li>
             </ul>
         </nav>
 
@@ -23,38 +26,34 @@
     </header>
     <div class="Contact">
         <div class="informatie">
-            <h1>Bel ons op:</h1>
-            <a href="tel:123-456-7890" class="linkje">123-456-7890</a>
-            <h2>maandag t/m zaterdag(8:00-18:00)</h2>
-            <h1>Mail ons op:</h1>
-            <a class= "linkje" href = "mailto: abc@example.com">abc@example.com</a>
-            <h2>Voor vragen over producten of je bestelling. We antwoorden op werkdagen binnen 24 uur.</h2>
-
-
+            <h2 class="h2a"><i class="fa fa-map-marker"></i> Adres:</h2>
+            <a">Van hunnikerf 5 veenendaal<br>3907mh</a><br><br><br><br><br>
+            <h2 class="h2a"><i class="fa fa-phone"></i> Telefoon:</h2>
+            <a href="tel:123-456-7890" class="linkje">06 8127 3967<br>8:00-17:00</a><br><br><br><br><br>
+            <h2 class="h2a"><i class="fa fa-envelope"></i> Mail:</h2>
+            <a class= "linkje" href = "mailto: abc@example.com">jwschipper06@gmail.com.com<br>We reageren binnen 24 uur.</a>
         </div>
     
         <div class="Bericht">
-            <form action="action_page.php">
-                <h1>Stuur ons een bericht:</h1>
-
-
-            <label for="fname"></label>
-            <input type="text" id="fname" name="firstname" placeholder="Voornaam">
-
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="Achternaam">
-
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="uwnaam@voorbeeld.com">
-
-            <label for="subject"></label>
-            <textarea id="subject" name="subject" placeholder="Uw bericht"></textarea>
+            <p class="poi">Stuur ons een bericht</p>
+            
+            <div class="login">
+              <input type="text" placeholder="Uw naam" class="input">
+              <input type="text" placeholder="Uw emailadres" class="input">
+            </div>
+            
+            <div class="subject">
+              <input type="text" placeholder="Onderwerp" class="input">
+            </div>
+            
+            <div class="msg">
+              <textarea  class="area" placeholder="Uw bericht"></textarea>
+            </div>
+            
+            <div class="btn">Verzend</div>
+          </div>
         
-            <input class="versturenknop" type="submit" value="versturen">
-        
-            </form>
         </div>
-    </div>
 
 </body>
 </html>

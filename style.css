@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
 body {
 	margin: 0;
 	background: white;
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-  background: #0a0a0a;
+  background: #000000;
 }
 
 header::after {
@@ -72,21 +73,34 @@ nav a:hover::before {
   width: 100%;
 }
 .productblok{
-    color: #0a0a0a;
+    color: black;
     background-color: white;
     float: left;
     width: 18%;
     padding: 1%;
     height: 550px;
     margin: 6.66%;
-    border: 0px solid #0a0a0a;
     font-family: 'Work Sans', sans-serif;
     transition: 0.5s all ease;
     transition-delay: 0.1s;
     min-width: 320px;
-}   
+} 
+
+.productblok:hover{
+  color: black;
+  background-color: #d1d1d1;
+  float: left;
+  width: 18%;
+  padding: 2%;
+  height: 550px;
+  margin: 5.66%;
+  min-width: 320px;
+  border-radius: 15px;
+}     
+
+
 .image{
-  width: 300px;
+  width: 88%;
   margin: 6%;
 }
 
@@ -98,62 +112,196 @@ nav a:hover::before {
   text-align: center;
   position: absolute;
   border-radius: 15px;
+  float: left;
 }
 
-a{
+.Bericht{
+  width: 60%;
+  height: 650px;
+  box-sizing: border-box;
+  padding: 40px;
+  float: left;
+  max-width: 2000px;
+}
+
+.poi{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #006b38FF;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #006b38FF;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
+
+.informatie{
+  width: 30%;
+  float: left;
+  padding: 5%;
+}
+
+.linkje{
   text-decoration: none;
   color: white;
 }
 
-.Bericht{
-  width: 75%;
+.informatieblok{
+  float:left;
+  width: 40%;
+  text-align: center;
+  padding: 5%;
+  color
+}
+.fotoblok{
   float: left;
-  color: white;
-  height: 500px;
+  width: 50%;
+  margin: %;
 }
-
-.informatie{
-  width: 25%;
+.fotoentekst{
+  width: 100%;
   float: left;
-   
+  background-color: #f2f1f4;
 }
 
-input{
-  width: 80%;
-  margin: 10px;
-  height: 40px;
-
+.informatieblokh1{
+  color: #323036;
 }
 
-textarea{
-  width: 80%;
-  margin: 10px;
-  height: 40px;
-
+.informatieblokp{
+  color: #81859f;
 }
 
-.versturenknop{
-  width: 10%;
-  background-color: white;
-}
-
-:placeholder-shown{
-  background-color: white;
+.knop{
+  background-color: #006b38FF;
   color: white;
+  width: 50%;
+  text-decoration: none;
 }
 
-.linkje{
-  color: #28208c;
-  font-size: 30px;
+a{
+  text-decoration: none;
+  color: #0a0a0a;
+}
+.h2a{
+  color: #006b38FF;
+}
+i{
+  color:#006b38FF;
 }
 
-h1{
-  font-size: 24px;
+.highlight, .highlight_stay{
+  color:red;
 }
 
-h2{
-  font-size: 12px;
+.product{
+  float: left;
 }
-body{
-  back
+.infofoto{
+  float: left;
+  width: 80%;
+  margin: 10%;
+  margin-bottom: 5%;
+  margin-top: 50px;
+  border-top: 1px;
 }
+
+.productfoto{
+  width: 46%;
+  margin: 2%;
+  float: left;
+}
+.productinfo{
+  width: 46%;
+  margin: 2%;
+  float: left;
+  border: 5px;
+  border: black;
+}
+
+.productfoto1{
+  width: 100%;
+}
+
+.winkelwagenknop{
+  width: 40%;
+  font-size: large;
+  padding: 10px;
+  background-color: #006b38FF;
+  border: #006b38FF;
+  color: white;
+  border-radius: 5px;
+}
+
+.optie{
+  float: left;
+  width: 80%;
+  margin: 10%;
+  margin-bottom: 5%;
+  margin-top: 50px;
+  border-top: 1px;
+}
+.opties{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.optieknop{
+  float: left;
+  width: 80%;
+  border: black;
+  border-style: solid;
+  border: 2px;
+  text-align: left;
+  align-items: left;
+}
+.imgoptie{
+  width: 5%;
+}
+
